@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Scores Portal</title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <div class="sign">
+            <h2>SIGNUP</h2>
+            <P>Fill the following fields</P>
+            <div class="container">
+                <div class="Row">
+                    <div class="col-5"></div>
+                    <div class="col-5">
+                        <input type="text" placeholder="Enter your first name">
+                        <input type="text" placeholder="Enter your last name">
+                        <input type="text" placeholder="Enter your email">
+                        <input type="text" placeholder="Enter your phone number">
+                        <button style="float: justify;"> submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calc">
+            <h2 style="margin-bottom: 30px;">Input your scores</h2>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-5">
+                    MATHEMATICS <br>
+                    <input type="text" placeholder="Enter your score" id="maths"><br>
+                    ENGLISH <br>
+                    <input type="text" placeholder="Enter your score" id="english"> <br>
+                    BIOLOGY <br>
+                    <input type="text" placeholder="Enter your score" id="biology"><br>
+                    ECONOMICS <br>
+                    <input type="text" placeholder="Enter your score" id="economics"><br>
+                <button style="float: justify;">submit</button> <br> </div>
+            
+                
+            </div>
+        </div>
+        <script> function wilhy()
+       {
+        var mathematics= document.getElementById("maths")
+        var english= document.getElementById("english")
+        var biology= document.getElementById("biology")
+        var ECONOMICS= document.getElementById("economics")
+        if(mathematics== ''||english '')
+        {
+            alert('you must fill in a value')
+        }
+       }
+
+        </script>
+    </body>
+</html>
